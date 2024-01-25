@@ -2,7 +2,8 @@ public class TestClass {
     static private int staticNbrInstance = 0;
     private int nbrInstance = 0;
 
-    TestClass(){ // constructor
+    // constructor
+    TestClass(){
         nbrInstance +=1;
         staticNbrInstance +=1;
     }
@@ -15,6 +16,7 @@ public class TestClass {
     public static void main(String[] args) {
         TestClass test = new TestClass();
         test.printNbrInstance();
+
         TestClass test2 = new TestClass();
         test.printNbrInstance();
     }

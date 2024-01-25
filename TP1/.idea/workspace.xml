@@ -5,11 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="27d520b8-b088-452d-8c04-95dba6f42101" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/Java - Chapitre 1 - les bases - exercices V1.1.pdf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Rectangle.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/TestClass.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Circle.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Circle.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/TestClass.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/TestClass.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -54,7 +51,7 @@
     "node.js.selected.package.tslint": "(autodetect)",
     "nodejs_package_manager_path": "npm",
     "onboarding.tips.debug.path": "C:/Users/thiba/OneDrive/Dev/JAVA_Polytech/TP1/src/Main.java",
-    "settings.editor.selected.configurable": "inlay.hints",
+    "settings.editor.selected.configurable": "reference.settingsdialog.IDE.editor.colors",
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
@@ -63,7 +60,7 @@
       <recent name="C:\Users\thiba\OneDrive\Dev\JAVA_Polytech\TP1\src" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.TestClass">
+  <component name="RunManager" selected="Application.Person">
     <configuration name="Circle" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Circle" />
       <module name="TP1" />
@@ -101,10 +98,10 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Person" />
         <item itemvalue="Application.TestClass" />
         <item itemvalue="Application.Rectangle" />
         <item itemvalue="Application.Circle" />
-        <item itemvalue="Application.Person" />
         <item itemvalue="Application.Main" />
       </list>
     </recent_temporary>
@@ -119,7 +116,8 @@
       <updated>1705996629298</updated>
       <workItem from="1705996630182" duration="512000" />
       <workItem from="1705997166011" duration="4218000" />
-      <workItem from="1706102175386" duration="2417000" />
+      <workItem from="1706102175386" duration="4229000" />
+      <workItem from="1706175397088" duration="3505000" />
     </task>
     <servers />
   </component>
