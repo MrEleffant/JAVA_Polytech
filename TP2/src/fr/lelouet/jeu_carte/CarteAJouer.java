@@ -1,26 +1,24 @@
 package fr.lelouet.jeu_carte;
 
-import java.security.PublicKey;
-
 public class CarteAJouer {
     private String couleur = "";
     private String valeur = "";
-    private static String[] couleurs_valides = {"TREFLE", "PIQUE", "CARREAU", "COEUR"};
-    private static String[] valeurs_valides = {"AS", "ROI", "DAME", "VALET", "10", "9", "8", "7", "6", "5", "4", "3", "2"};
+    private static final String[] COULEURS_VALIDES = {"TREFLE", "PIQUE", "CARREAU", "COEUR"};
+    private static final String[] VALEURS_VALIDES = {"AS", "ROI", "DAME", "VALET", "10", "9", "8", "7", "6", "5", "4", "3", "2"};
 
-    public static String[] getCouleurs_valides() {
-        return couleurs_valides;
+    public static String[] getCouleursValides() {
+        return COULEURS_VALIDES;
     }
 
-    public static String[] getValeurs_valides() {
-        return valeurs_valides;
+    public static String[] getValeursValides() {
+        return VALEURS_VALIDES;
     }
 
     public String getCouleur() {
         return couleur;
     }
 
-    public void setCouleur(String couleur) {
+    private void setCouleur(String couleur) {
         if(isColorValide(couleur)){
             this.couleur = couleur;
         } else {
@@ -32,7 +30,7 @@ public class CarteAJouer {
         return valeur;
     }
 
-    public void setValeur(String valeur) {
+    private void setValeur(String valeur) {
         if (isValeurValide(valeur)){
             this.valeur = valeur;
         } else {
@@ -41,24 +39,25 @@ public class CarteAJouer {
     }
 
     public String toString(){
-        System.out.println(valeur + " - " + couleur);
-        return null;
+        return valeur + " - " + couleur;
     }
 
-    private boolean isColorValide(String couleur){
+    private static boolean isColorValide(String couleur){
         boolean found = false;
-        for (String color : couleurs_valides){
+        for (String color : COULEURS_VALIDES){
             if (couleur.equals(color)){
                 found = true;
+                break;
             }
         }
         return found;
     }
-    private boolean isValeurValide(String valeur){
+    private static boolean isValeurValide(String valeur){
         boolean found = false;
-        for (String value: valeurs_valides){
+        for (String value: VALEURS_VALIDES){
             if (valeur.equals(value)){
                 found = true;
+                break;
             }
         }
         return found;
@@ -67,10 +66,6 @@ public class CarteAJouer {
     public CarteAJouer(String valeur, String couleur){
         setCouleur(couleur);
         setValeur(valeur);
-    }
-
-    protected CarteAJouer(){
-
     }
 
 }

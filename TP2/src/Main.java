@@ -3,6 +3,7 @@ import fr.lelouet.jeu_carte.Jeu;
 
 public class Main {
     public static void main(String[] args) {
+
         Jeu deck = new Jeu();
         deck.toString();
 
@@ -12,8 +13,13 @@ public class Main {
         deck.shuffle();
         deck.toString();
 
-        CarteAJouer carteLookingFor  = new CarteAJouer("ROI", "TREFLE");
-        carteLookingFor  = deck.getCarte(carteLookingFor);
-        carteLookingFor.toString();
+        CarteAJouer carteCherche2  = new CarteAJouer("ROI", "TREFLE");
+        carteCherche2  = deck.getCarte(carteCherche2);
+        carteCherche2.toString();
+
+
+
+        // CarteAJouer test = new CarteAJouer("ROI", "TREFLE");
+        // System.out.print(test);
     }
 }

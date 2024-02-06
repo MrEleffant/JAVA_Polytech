@@ -7,13 +7,13 @@ public class Jeu {
 
     public String toString() {
         for (CarteAJouer carte : deck){
-            carte.toString();
+            System.out.println(carte.toString());
         }
         return null;
     }
 
     public CarteAJouer getCarte(String valeur, String couleur) {
-        CarteAJouer carteFound = new CarteAJouer();
+        CarteAJouer carteFound = null;
         for(CarteAJouer carte : deck ) {
             if(valeur.equals(carte.getValeur()) && couleur.equals(carte.getCouleur())){
                 System.out.println("Card found @" + Integer.toHexString(hashCode()));
@@ -26,16 +26,7 @@ public class Jeu {
     }
 
     public CarteAJouer getCarte(CarteAJouer carteCherche) {
-        CarteAJouer carteFound = new CarteAJouer();
-        for(CarteAJouer carte : deck ) {
-            if(carteCherche.getValeur().equals(carte.getValeur()) && carteCherche.getCouleur().equals(carte.getCouleur())){
-                System.out.println("Card found @" + Integer.toHexString(hashCode()));
-                carteFound =  carte;
-                break;
-            }
-        }
-
-        return carteFound;
+        return getCarte(carteCherche.getValeur(), carteCherche.getCouleur());
     }
 
     public void shuffle(){
@@ -53,8 +44,8 @@ public class Jeu {
 
     public Jeu() {
         int index = 0;
-        for (String couleur : CarteAJouer.getCouleurs_valides()) {
-            for (String valeur : CarteAJouer.getValeurs_valides()) {
+        for (String couleur : CarteAJouer.getCouleursValides()) {
+            for (String valeur : CarteAJouer.getValeursValides()) {
                 deck[index++] = new CarteAJouer(valeur, couleur);
             }
         }
