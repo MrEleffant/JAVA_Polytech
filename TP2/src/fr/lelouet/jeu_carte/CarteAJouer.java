@@ -64,7 +64,7 @@ public class CarteAJouer {
         return found;
     }
 
-    public CarteAJouer(String couleur, String valeur){
+    public CarteAJouer(String valeur, String couleur){
         setCouleur(couleur);
         setValeur(valeur);
     }

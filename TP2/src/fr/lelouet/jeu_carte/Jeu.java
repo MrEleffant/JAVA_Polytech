@@ -1,4 +1,5 @@
 package fr.lelouet.jeu_carte;
+import java.util.Random;
 
 public class Jeu {
     private int deckSize = 52;
@@ -37,11 +38,24 @@ public class Jeu {
         return carteFound;
     }
 
+    public void shuffle(){
+        Random random = new Random();
+
+        for (int i = deck.length - 1; i > 0; i--) {
+            int j = random.nextInt(i + 1);
+
+            // Swap deck[i] and deck[j]
+            CarteAJouer temp = deck[i];
+            deck[i] = deck[j];
+            deck[j] = temp;
+        }
+    }
+
     public Jeu() {
         int index = 0;
         for (String couleur : CarteAJouer.getCouleurs_valides()) {
             for (String valeur : CarteAJouer.getValeurs_valides()) {
-                deck[index++] = new CarteAJouer(couleur, valeur);
+                deck[index++] = new CarteAJouer(valeur, couleur);
             }
         }
     }

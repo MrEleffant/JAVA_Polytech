@@ -9,8 +9,10 @@ public class Main {
         CarteAJouer carteCherche = deck.getCarte("ROI", "TREFLE");
         carteCherche.toString();
 
+        deck.shuffle();
+        deck.toString();
 
-        CarteAJouer carteLookingFor  = new CarteAJouer("TREFLE", "AS");
+        CarteAJouer carteLookingFor  = new CarteAJouer("ROI", "TREFLE");
         carteLookingFor  = deck.getCarte(carteLookingFor);
         carteLookingFor.toString();
     }
