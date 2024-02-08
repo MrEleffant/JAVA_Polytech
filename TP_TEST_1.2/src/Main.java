@@ -7,7 +7,7 @@ public class Main {
         FraisDeDeplacement.moyensDeLocomotion  transport = FraisDeDeplacement.moyensDeLocomotion.PIED;
 
         FraisDeDeplacement f2 = new FraisDeDeplacement(Pauline, date, transport, 0, 0);
-        //System.out.println(f2.toString());
+        System.out.println(f2.toString());
 
         FraisDeDeplacement f3 = new FraisDeDeplacement();
         System.out.println(f3.toString());
