@@ -12,6 +12,10 @@ public class Mesjeux2 extends HashSet<JeuPS4> {
         }
     }
 
+    public JeuPS4 getJeu(String name){
+        return stream().filter(e -> e.getTitre().equals(name)).findFirst().get();
+    }
+
     /*
     public boolean add(JeuPS4 jeu){
         if (stream().noneMatch(e -> jeu.equals(e))){

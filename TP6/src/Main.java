@@ -33,6 +33,8 @@ public class Main {
         System.out.println(collec2);
 
 
+        System.out.println("here " + collec2.getJeu("Rayman"));
+
 
     }
 }
