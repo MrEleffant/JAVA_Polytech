@@ -3,7 +3,7 @@ package fr.lelouet.revision;
 import java.util.HashMap;
 import java.util.HashSet;
 
-public class Collection extends HashMap<Support, HashSet<Jeu>> {
+public class Collection extends HashMap<Support, HashSet<Jeu>>{
 
     public void addJeu(Support support, Jeu jeu){
         if (!this.containsKey(support)){

@@ -15,7 +15,6 @@ public class Mammifere extends Animal{
         return super.toString() + " Je suis un mamifère.";
     }
 
-
     public Mammifere(String nom, Sexe sex) {
         super(nom, sex);
     }
