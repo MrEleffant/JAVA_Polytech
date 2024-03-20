@@ -21,9 +21,9 @@ public class Matiere {
     }
 
 
-    public String toString(){
+    /*public String toString(){
         return nom + " - " + coeff;
-    }
+    }*/
 
     public Matiere(String nom, int coeff){
         setNom(nom);

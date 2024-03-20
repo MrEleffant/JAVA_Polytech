@@ -6,11 +6,19 @@ public class Etudiant {
     private String nom;
     private HashMap<Matiere, ListeDeNotes> notes = new HashMap<Matiere, ListeDeNotes>();
 
+
+    private float moyGeneral;
+
     public void addNote(Matiere mat, float note) {
+        // notes.putIfAbsent(mat, new ListeDeNotes()); // même chose
         if (!notes.containsKey(mat)){
             notes.put(mat, new ListeDeNotes());
         }
         notes.get(mat).add(note);
+    }
+
+    public float getMoyenne(Matiere mat){
+        return (float)notes.get(mat).moyenne();
     }
 
     public String getMoyennes(){
@@ -26,6 +34,22 @@ public class Etudiant {
         });
         return moy.toString();
     }
+
+    public Float getMoyenneGeneral(){
+        StringBuffer moy = new StringBuffer();
+
+        var moyenne = new Object() {
+            Float somme = 0F;
+            int sommeCoeffs = 0;
+        };
+
+        notes.forEach((mat, notes) -> {
+            moyenne.somme += (float)notes.moyenne() * (float)mat.getCoeff();
+            moyenne.sommeCoeffs += mat.getCoeff();
+        });
+        return moyenne.somme / moyenne.sommeCoeffs;
+    }
+
 
 
     public String getNom() {
