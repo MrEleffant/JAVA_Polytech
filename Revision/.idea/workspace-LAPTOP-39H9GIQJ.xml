@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="31f2780b-92ef-45a6-b43e-7a864bad1ae8" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/src/fr/lelouet/revision/Collection.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/fr/lelouet/revision/Jeu.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/fr/lelouet/revision/Support.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../TP7/src/fr/lelouet/exerciceComplementaire/Moyenne.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TP7/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/../TP7/src/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TP7/src/fr/lelouet/exerciceComplementaire/Etudiant.java" beforeDir="false" afterPath="$PROJECT_DIR$/../TP7/src/fr/lelouet/exerciceComplementaire/Etudiant.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TP7/src/fr/lelouet/exerciceComplementaire/ListeDeNotes.java" beforeDir="false" afterPath="$PROJECT_DIR$/../TP7/src/fr/lelouet/exerciceComplementaire/ListeDeNotes.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TP7/src/fr/lelouet/exerciceComplementaire/Promo.java" beforeDir="false" afterPath="$PROJECT_DIR$/../TP7/src/fr/lelouet/exerciceComplementaire/Promo.java" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="ProjectColorInfo"><![CDATA[{
+  "associatedIndex": 0
+}]]></component>
+  <component name="ProjectId" id="2dxm6JNU25yRKDcBREkd5q6olxB" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "git-widget-placeholder": "main",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "vue.rearranger.settings.migration": "true"
+  }
+}]]></component>
+  <component name="RunManager">
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Main" />
+      <module name="Revision" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.Main" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="31f2780b-92ef-45a6-b43e-7a864bad1ae8" name="Changes" comment="" />
+      <created>1710957930384</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1710957930384</updated>
+      <workItem from="1710957931376" duration="3260000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+</project>
