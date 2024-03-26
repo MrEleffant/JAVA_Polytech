@@ -11,6 +11,7 @@ public class Promo {
     public Matiere getMatiere(String matiere){
         return matieres.get(matiere);
     }
+
     public Etudiant getEtudiant(String etu){
         return etudiants.stream().filter(e -> e.getNom().equals(etu)).findFirst().get();
     }
@@ -73,12 +74,13 @@ public class Promo {
         StringBuffer output = new StringBuffer();
         HashMap<Matiere, ArrayList<Float>> allNotes = getAllNotes();
         output.append(allNotes);
-        /*allNotes.forEach((mat, notes) -> {
-            output.append(notes);
-            output.append("\n"+mat.getNom() + " - min " + notes.stream().min(Float::compare));
-            output.append("\n"+mat.getNom() + " - max " + notes.stream().max(Float::compare));
-        });*/
-        return output.toString();
+//        allNotes.forEach((mat, notes) -> {
+//            output.append(notes);
+//            output.append("\n"+mat.getNom() + " - min " + notes.stream().min(Float::compare));
+//            output.append("\n"+mat.getNom() + " - max " + notes.stream().max(Float::compare));
+//        });
+        return "toto";
+//        return output.toString();
     }
 
 

@@ -1,7 +1,6 @@
-package fr.lelouet.jeu_carte;
+package fr.lelouet.UT2;
 
-
-public class CarteAJouer {
+public class CarteJouer {
     private String couleur = "";
     private String valeur = "";
     private static final String[] COULEURS_VALIDES = {"TREFLE", "PIQUE", "CARREAU", "COEUR"};
@@ -64,9 +63,10 @@ public class CarteAJouer {
         return found;
     }
 
-    public CarteAJouer(String valeur, String couleur){
+    public CarteJouer(String valeur, String couleur){
         setCouleur(couleur);
         setValeur(valeur);
     }
 
 }
+

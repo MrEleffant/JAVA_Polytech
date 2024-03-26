@@ -11,13 +11,11 @@ public class Main {
         System.out.println(p1.getMatiere("math"));
 
 
-        p1.etudiants.add(new Etudiant("Tom"));
+        //p1.etudiants.add(new Etudiant("Tom"));
         p1.addNote("Tom", "math", 3F);
-        System.out.println(p1.getEtudiant("Tom"));
+        //System.out.println(p1.getEtudiant("Tom"));
 
-        /*p1.addMatiere("physique", 8);
-
-
+        p1.addMatiere("physique", 8);
         p1.addEtudiant("Thomas");
 
         p1.addNote(p1.getEtudiant("Tom"), p1.getMatiere("math"), 10F);
@@ -40,8 +38,7 @@ public class Main {
         System.out.println(p1.getMoyenneMatiers());
 
         System.out.println("p1.getBWNotes()");
-        System.out.println(p1.getBWNotes());*/
-
+        System.out.println(p1.getBWNotes());
 
         /*
         Joueur j1 = new Joueur();
