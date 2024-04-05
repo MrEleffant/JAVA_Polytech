@@ -1,0 +1,190 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="16c21b58-e2be-4786-b404-183294ee5f6f" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/../TP11/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../TP11/.idea/libraries/junit_jupiter.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../TP11/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../TP11/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../TP11/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../TP11/DSC01057.ARW" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../TP11/TP11.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../TP11/images.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../TP11/src/fr/lelouet/TP11/EXO1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../TP11/test.ARW" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../TP11/test.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/junit_jupiter.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TP_TEST_3.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/fr/lelouet/MesSeance.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/fr/lelouet/Seance.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/fr/lelouet/SportTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TP9/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../TP9/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TP9/src/fr/lelouet/UT2/CarteJouer.java" beforeDir="false" afterPath="$PROJECT_DIR$/../TP9/src/fr/lelouet/UT2/CarteJouer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TP9/test/fr/lelouet/UT2/CarteJouerTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/../TP9/test/fr/lelouet/UT2/CarteJouerTest.java" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="JUnit5 Test Class" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="JavaAutoRunManager">
+    <enabled-run-configurations>
+      <run-configuration type="JUnit" name="SportTest.vitesseMoyenne" />
+    </enabled-run-configurations>
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 5
+}</component>
+  <component name="ProjectId" id="2edRt8ZGfI3LZMIVncMbQq1sWXV" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Downloaded.Files.Path.Enabled": "false",
+    "Repository.Attach.Annotations": "false",
+    "Repository.Attach.JavaDocs": "false",
+    "Repository.Attach.Sources": "false",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary": "JUnit5",
+    "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5": "",
+    "git-widget-placeholder": "main",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "project.structure.last.edited": "Libraries",
+    "project.structure.proportion": "0.0",
+    "project.structure.side.proportion": "0.2",
+    "vue.rearranger.settings.migration": "true"
+  }
+}]]></component>
+  <component name="RecentsManager">
+    <key name="CreateTestDialog.Recents.Supers">
+      <recent name="" />
+    </key>
+    <key name="CreateTestDialog.RecentsKey">
+      <recent name="fr.lelouet" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Application.Main">
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Main" />
+      <module name="TP_TEST_3" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SportTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="TP_TEST_3" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="fr.lelouet.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="fr.lelouet" />
+      <option name="MAIN_CLASS_NAME" value="fr.lelouet.SportTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SportTest.natationRythmeMoyen" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="TP_TEST_3" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="fr.lelouet.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="fr.lelouet" />
+      <option name="MAIN_CLASS_NAME" value="fr.lelouet.SportTest" />
+      <option name="METHOD_NAME" value="natationRythmeMoyen" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SportTest.sportCoIllegalTime" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="TP_TEST_3" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="fr.lelouet.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="fr.lelouet" />
+      <option name="MAIN_CLASS_NAME" value="fr.lelouet.SportTest" />
+      <option name="METHOD_NAME" value="sportCoIllegalTime" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SportTest.vitesseMoyenne" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="TP_TEST_3" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="fr.lelouet.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="fr.lelouet" />
+      <option name="MAIN_CLASS_NAME" value="fr.lelouet.SportTest" />
+      <option name="METHOD_NAME" value="vitesseMoyenne" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.Main" />
+        <item itemvalue="JUnit.SportTest" />
+        <item itemvalue="JUnit.SportTest.sportCoIllegalTime" />
+        <item itemvalue="JUnit.SportTest.natationRythmeMoyen" />
+        <item itemvalue="JUnit.SportTest.vitesseMoyenne" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="16c21b58-e2be-4786-b404-183294ee5f6f" name="Changes" comment="" />
+      <created>1712232683544</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1712232683544</updated>
+      <workItem from="1712232684575" duration="171000" />
+      <workItem from="1712297943602" duration="8502000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+</project>
